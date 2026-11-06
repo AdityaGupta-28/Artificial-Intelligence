@@ -297,4 +297,114 @@ These are the most important points to retain.
 15. Unsupervised Learning uses unlabeled data.
 16. Reinforcement Learning uses rewards and penalties.
 
+#### Supervised Learning = Learning from labeled data.
+There are two major types of supervised learning
+
+1. Regression - Regression is a supervised machine learning technique used to predict continues numerical value based on one or more input variables.
+
+What is Linear Regression - 
+Linear Regression is a supervised machine learning technique that model relationship between input and output variable using linear equation.
+    eg. - y = mx + c;
+    where m - slope(coefficient) determines how much output changes when input is changed.
+    y - output
+    c- intercept (output is equal to intercept when input is 0)
+
+### Simple Linear Regression vs Multiple Linear Regression
+1. Simple Linear Regression - Uses only one independent input variable to predict the output.
+  eg. - y = mx+c
+
+2. Multiple Linear Regression - Uses two or more independentn input variables to predict the output.
+eg. - y = m1x + m2a + m3b + c;
+
+## HOW DOES A MODEL LEARN?
+## Prediction error
+Suppose the actual house price is ₹40 lakh.
+Our model predicts ₹35 lakh. then there is error of 5 lakh 
+so A model needs a way to measure how wrong its predictions are.
+This leads us to the concept of a Loss Function.
+
+## Loss Function 
+Definition: A loss function measures how far a model's prediction is from the actual target value.
+A common loss function for regression is Mean Squared Error (MSE).
+The smaller the MSE, the better the predictions are on this dataset, assuming the same target scale and comparison.
+
+Why do we square the errors?
+1. Negative and positive errors do not cancel each other.
+2. Large errors receive greater penalties.
+3. It gives us a mathematically convenient optimization objective.
+
+## What is Gradient Descent
+Now imagine that the model initially predicts house prices very poorly.
+It needs to adjust its parameters to reduce the prediction error.
+How?
+One widely used optimization technique is Gradient Descent.
+
+Definition: Gradient Descent is an optimization algorithm that iteratively adjusts model parameters in the direction that reduces the loss function.
+
+What is Learning Rate?
+Learning rate determines how large each parameter update is.
+- Too small → Learning may be very slow.
+- Too large → Updates may overshoot the minimum or fail to converge.
+- Suitable learning rate → More stable optimization.
+
+
+## What is Classification?
+Definition: Classification is a supervised Machine Learning technique that predicts which category or class an input belongs to.
+
+A. Binary Classification
+Binary classification predicts one of two possible classes.
+
+B. Multiclass Classification
+Multiclass classification predicts one class from three or more possible classes.
+Example: An image recognition model classifies an image as:
+
+### What is Logistic Regression 
+It is used for binary classification where the output can be one of two possible categories such as Yes/No, True/False or 0/1.
+It uses sigmoid function to convert inputs into a probability value between 0 and 1.
+It predicts the probability that the student will pass.
+The model converts the probability into a class using a decision threshold.
+
+### Decision Tree 
+A decision tree is a supervised machine learning algorithm that works like an interactive flowchart to make predictions by breaking down a dataset into smaller, manageable subsets based on specific series of  questions.
+
+Decision trees are categorized into two main types under the CART (Classification and Regression Trees) framework:
+• Classification Trees: Predict discrete categories or labels (e.g., deciding if a loan is "Approved" or "Denied").
+• Regression Trees: Predict continuous numeric values (e.g., forecasting the exact price of a house).
+
+
+12. Other important classification algorithms
+Logistic Regression     	Uses probabilities to classify
+Decision Tree	            Uses decision rules
+Random Forest            	Combines multiple decision trees
+KNN	                      Uses nearby examples
+SVM                      	Finds a separating boundary
+Naive Bayes	              Uses probability and Bayes' theorem
+
+
+13. Regression vs Classification – Final comparison
+Parameter	    Regression          	Classification
+Output      	Numerical           	Categorical
+Example	      ₹50 lakh	            Spam
+Objective   	Predict a quantity	  Predict a class
+Algorithms  	Linear Regression   	Logistic Regression
+Evaluation	  MAE, MSE, RMSE	      Accuracy, Precision, Recall, F1
+
+
+15. Important interview and examination questions
+Here are some concepts to remember:
+Question                        	Answer
+What is regression?           Predicts continuous numerical values
+What is classification?	      Predicts categories
+What is Linear Regression?	  Models linear relationships
+What is Multiple Regression?	  Uses multiple input variables
+What is Logistic Regression used for?	  Classification
+What is MSE?	                        Mean Squared Error
+What is Gradient Descent?         	Optimization algorithm
+What is Sigmoid?	                Function mapping real numbers into (0,1)
+What is a Decision Tree?	        Tree-based prediction algorithm
+What is a leaf node?            	Final prediction node
+
+
+
+
 
