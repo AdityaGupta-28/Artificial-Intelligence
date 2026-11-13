@@ -104,5 +104,5 @@ employees - 86000
 
 2. Gemini Enterprise Adoption -- LTM expanded its collaboration with Google Cloud to help enterprises adopt Gemini
 
-Largest deal of lti - $450 million global agribusiness deal
+Largest deal of ltm - $450 million global agribusiness deal
 

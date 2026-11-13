@@ -1,4 +1,85 @@
  ### Course syllabus
+
+Your AI learning journey
+FROM ZERO TO BUILDING AI AGENTS
+1. AI Fundamentals
+   Completed
+   - What is AI?
+   - Types of AI
+   - AI applications
+2. Machine Learning
+   - ML fundamentals
+   - Supervised learning
+   - Unsupervised learning
+   - Reinforcement learning
+3. Mathematics for AI/ML
+   - Linear algebra
+   - Probability and statistics
+   - Vectors, matrices and derivatives
+   - Similarity and distance
+4. Deep Learning
+   - Artificial neural networks
+   - Neurons and layers
+   - Activation functions
+   - Forward propagation
+   - Backpropagation
+   - Gradient descent
+5. Generative AI
+   - Generative models
+   - LLM fundamentals
+   - Tokens and tokenization
+   - Embeddings
+   - Transformers
+   - Attention mechanism
+6. Working with LLMs
+   - Prompt engineering
+   - System and user prompts
+   - Context windows
+   - Temperature and model parameters
+   - Structured outputs
+   - Function/tool calling
+   - LLM APIs
+7. LLM Application Development
+   - Python for AI development
+   - Model APIs
+   - LangChain fundamentals
+   - Memory management
+   - Vector databases
+   - RAG (Retrieval-Augmented Generation)
+8. Agentic AI Fundamentals
+   Final destination
+   - What is Agentic AI?
+   - AI model vs AI assistant vs AI agent
+   - Agent architecture
+   - Reasoning and planning
+   - Tools and actions
+   - Agent memory
+   - Agent execution loop
+9. Building AI Agents
+   - Tool-calling agents
+   - ReAct architecture
+   - Planning and execution
+   - Multi-step workflows
+   - Error handling
+   - Human-in-the-loop
+10. Advanced Agentic AI
+    - Multi-agent systems
+    - Agent communication
+    - LangGraph
+    - MCP (Model Context Protocol)
+    - Agent orchestration
+    - Evaluation, security and guardrails
+11. Real-world projects
+    - Research assistant
+    - PDF/document analysis agent
+    - AI customer support agent
+    - Database query agent
+    - Multi-agent research system
+
+
+
+
+
 Phase	Topics	What you'll understand
 1	AI Fundamentals	What AI is and how it works
 2	Types of AI	Narrow AI, General AI, Reactive AI
