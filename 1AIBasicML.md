@@ -99,7 +99,7 @@ Phase	Topics	What you'll understand
 16	Projects	Building practical AI applications
 
 ### (1) 1  What is Intelligence
-Doing calculation, recognising things,language understanding, perception(understanding infromations from our surrounding),problem solving, taking decision and learning new things.
+Intelligence is ability to learn,understand, recognise and make smart decisions.
 
 ## What is Artificial Intelligence
 It is branch of cse in which we focus on creating a machine that can perform tasks
@@ -123,7 +123,7 @@ Instead of writing every rule manually, you provide thousands of examples of spa
 ### 3 AI capabilities 
 1. Learing
 2. Reasoning
-3. Perception
+3. Perception - Perception is the ability to receive, recognize, interpret, and understand information from the surrounding environment through sensory inputs.
 4. Natural Language Processing
 5. Problem Solving
 
@@ -199,6 +199,10 @@ K-Means                     	Clustering
 Support Vector Machine (SVM)	Classification and regression
 
 5. Model - A model is the result obtained after applying that learning procedure to training data.
+             Or
+A model is the result of an algorithm learning patterns, relationships, and rules from training data.
+                 Or
+In simple words: An algorithm learns from data, and the learned result is called a model.
 
 For example:
 - Algorithm: Linear Regression.

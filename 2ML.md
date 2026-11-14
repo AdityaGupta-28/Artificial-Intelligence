@@ -123,12 +123,12 @@ Example:
 Key Idea: Learn through trial and error.
 
 2. Five Fundamental Components of Reinforcement Learning
-Component	Short Definition	Example
-Agent	Decision-maker that learns and takes actions.	Robot
-Environment	External world in which the agent operates.	Room
-State	Current situation of the environment.	Robot's position
-Action	Decision or movement performed by the agent.	Move left
-Reward	Numerical feedback for an action or outcome.	+10 for reaching target
+Component       	Short Definition	                            Example
+Agent	        Decision-maker that learns and takes actions.	    Robot
+Environment	       External world in which the agent operates.	    Room
+State	           Current situation of the environment.        	Robot's position
+Action      	Decision or movement performed by the agent.	    Move left
+Reward	        Numerical feedback for an action or outcome.	    +10 for reaching target
 
 
 

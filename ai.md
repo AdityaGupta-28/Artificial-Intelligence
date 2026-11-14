@@ -1,17 +1,43 @@
-### Neural network Architecture
-Our goal is to understand the complete journey:
-AI → ML → Deep Learning → Neural Network Architectures → Generative AI → LLMs → RAG → Agentic AI.
+### 1 Deep Learning
+Definition: Deep Learning is a subset of Machine Learning that uses multi-layered Artificial Neural Networks (ANNs) to learn complex patterns from large amounts of data and make predictions or decisions.
+(Artificial neural network should be multi-layered)
 
-### Neural network Architecture
-Our goal is to understand the complete journey:
-AI → ML → Deep Learning → Neural Network Architectures → Generative AI → LLMs → RAG → Agentic AI.
+In simple words, Deep Learning allows computers to learn increasingly complex features from examples using neural networks.
 
-## What are Deep Learning Architectures?
-Definition: Deep Learning architectures are computational structures made up of interconnected artificial neurons and layers that learn patterns and relationships from data to perform tasks such as classification, prediction, recognition and content generation.
+### 2. What is an Artificial Neural Network?
+Definition: An Artificial Neural Network (ANN) is a computational model composed of interconnected processing units called artificial neurons, organized into layers, that learn relationships between inputs and outputs by adjusting parameters such as weights and biases.
 
+A neural network is loosely inspired by biological nervous systems, but it does not function exactly like a human brain.
+
+ Neuron: A basic computational unit that receives inputs, applies weights and bias, and produces an output through an activation function.
+
+ 
+### Structure of a Neural Network
+A basic neural network consists of three types of layers:
+
+1. Input Layer- Receives input features from the dataset.
+Example:Study hours, Attendance, Previous exam score.
+
+2. Hidden Layers - Process the input data and learn useful patterns using weights, biases and activation functions.
+A neural network can contain one or multiple hidden layers.
+
+3. Output Layer - Produces the final prediction.
+Examples: Pass or Fail, Cat or Dog, Predicted house price.
+
+
+### Deep Neural Network (DNN):
+A Deep Neural Network is a computational model composed of multiple layers of interconnected artificial neurons that learns complex relationships between inputs and outputs by adjusting its internal parameters (weights and biases) during training.
+
+### One important distinction:
+- ANN can have one or more hidden layers.
+- DNN has multiple hidden layers.
+
+
+### Important Deep Learning Architecture
 Different neural network architectures are designed to handle different types of data
 
 Architecture	            Main purpose	            Example
+FNN
 ANN / MLP	                General numerical data	    House price prediction
 CNN	                        Image processing	        Cat and dog recognition
 RNN                     	Sequential data	            Text processing
@@ -19,6 +45,10 @@ LSTM	                    Long-term sequence learning 	Speech recognition
 GRU	                        Efficient sequence learning	    Time-series prediction
 Transformer                	Understanding relationships in sequences	ChatGPT
 
+
+1. Feedforward Neural Network (FNN)
+Information flows in one direction, from input to output.
+Applications: Classification and prediction.
 
 ## 1. ANN / MLP (Artificial Neural Network)
 An Artificial Neural Network (ANN) is a computational model inspired by the human brain, consisting of interconnected artificial neurons arranged in layers that learn patterns by adjusting weights and biases during training.
