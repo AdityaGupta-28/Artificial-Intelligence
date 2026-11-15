@@ -255,7 +255,7 @@ Example: Generate a new realistic cat image.
 
 
 8. What is an LLM?
-Must know
+ 
 Full form: Large Language Model.
 
 Definition: An LLM is a large-scale neural network trained on extensive text data to understand and generate language by learning statistical patterns and relationships between tokens.
@@ -269,37 +269,23 @@ User provides a prompt.
 
 Tokenizer converts text into tokens.
 
-
-
 Tokens are converted into embeddings.
-
-
 
 Transformer processes the context.
 
-
-
 The output layer generates logits.
-
-
 
 Softmax can convert logits into probabilities.
 
-
-
 A decoding strategy selects the next token.
-
-
 
 The process repeats to generate the response.
 
 ## What is a hallucination?
 A hallucination occurs when an AI model generates information that sounds plausible(correct) but is false, unsupported or inconsistent with reliable information.
-
 This is one reason why modern AI applications use grounding, verification and RAG.
 
 ## 9. RAG – Retrieval-Augmented Generation
-Very important before Agentic AI
 Definition: Retrieval-Augmented Generation (RAG) is a technique that retrieves relevant external information and supplies it to a generative model so that the model can produce answers grounded in that information.
 Why do we need RAG?
 Suppose you build a chatbot for a university.
@@ -321,6 +307,8 @@ RAG workflow
 7. Retrieve relevant chunks using similarity search.
 8. Provide the question and retrieved context to the LLM.
 9. LLM generates a grounded response.
+
+
 Important RAG components
 Component	Purpose
 Chunking	Splits documents into smaller pieces
@@ -405,14 +393,13 @@ Example:
 - Gemini writes emails.
 - Midjourney generates images.
 3. AI Agent
+
 Definition: An AI Agent is an AI system that can perceive its environment, make decisions and take actions to achieve a specific goal using available tools.
 
 In simple words: An AI Agent doesn't just give answers; it can also perform actions.
 
 Example:
-
 You ask an AI agent:
-
 "Check my unread emails and summarize them."
 
 It can:
@@ -421,14 +408,13 @@ It can:
 3. Summarize their contents.
 4. Return the summary.
 4. Agentic AI
+
 Definition: Agentic AI refers to AI systems designed to autonomously plan, reason, make decisions and execute multiple actions to achieve complex goals, often using tools, memory and feedback.
 
 In simple words: Agentic AI can independently manage a multi-step task and decide what to do next to achieve the final goal.
 
 Example:
-
 You ask:
-
 "Plan my trip to Delhi for three days."
 
 An Agentic AI system can:
@@ -457,13 +443,11 @@ Analyzes information and makes a recommendation.
 
 Generative AI
 Writes a comparison of five hotels.
-
 Generates new content.
 
 
 AI Agent
 Searches hotel websites and retrieves available rooms.
-
 Uses tools to perform actions.
 
 
@@ -481,21 +465,19 @@ The broader field
 
 
 Generative AI
-
 Creates content using learned patterns
 
 
 AI Agents
-
 Use AI capabilities and tools to perform tasks
 
 
 Agentic AI
-
 Plans, coordinates and executes multi-step tasks
 
 
 Important: This is a learning progression, not a strict hierarchy. Generative AI and AI agents are not necessarily separate levels. An AI agent can use a generative model, and Agentic AI systems can use one or multiple agents.
+
 5. Best Interview Answer
 If an interviewer asks, "Differentiate between AI, Generative AI, AI Agents and Agentic AI", you can answer:
 
@@ -506,3 +488,11 @@ Remember these four lines:
 - Generative AI = Creates new content.
 - AI Agent = Takes actions.
 - Agentic AI = Plans and executes multiple actions to achieve a goal.
+
+
+
+
+
+While these two terms are often used interchangeably, an AI Agent is a single-purpose worker that performs a specific task, whereas Agentic AI is the broader, autonomous system that plans, reasons, and coordinates multiple tasks or agents to achieve a complex goal.
+
+You can think of an AI Agent as an individual employee handling one job, while Agentic AI is the project manager who breaks down a big objective, assigns work to different tools or agents, and adapts if something goes wrong
