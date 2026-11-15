@@ -513,3 +513,6 @@ Prompt Engineering	        Designing effective instructions for AI
 System Prompt	        High-priority instructions defining model behavior
 
 Higher is the temperature more is the creativity.
+
+system prompt:
+<!-- The system instruction is: you are a helpful Indian e-governance assistant; use the provided context. Her latest user content has a RELEVANT DATA block: scheme name, description, benefits, official link. -->
