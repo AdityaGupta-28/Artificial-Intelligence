@@ -496,3 +496,20 @@ Remember these four lines:
 While these two terms are often used interchangeably, an AI Agent is a single-purpose worker that performs a specific task, whereas Agentic AI is the broader, autonomous system that plans, reasons, and coordinates multiple tasks or agents to achieve a complex goal.
 
 You can think of an AI Agent as an individual employee handling one job, while Agentic AI is the project manager who breaks down a big objective, assigns work to different tools or agents, and adapts if something goes wrong
+
+
+#### MCP
+ MCP stands for Model Context Protocol, an open-source standard introduced by Anthropic to safely connect AI assistants and large language models (LLMs) to external data sources, business tools, and development environments
+
+
+ #### 
+ Concept	                 Meaning
+Context	                Information given to the model
+Context Window	        Maximum tokens the model can process
+Temperature	            Controls randomness in generation
+Tokens	                Basic units of text processed by an LLM
+Top-p	                Controls token selection using cumulative probability
+Prompt Engineering	        Designing effective instructions for AI
+System Prompt	        High-priority instructions defining model behavior
+
+Higher is the temperature more is the creativity.
